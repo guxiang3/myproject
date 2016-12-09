@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8" />
+    <meta name="baidu-site-verification" content="2MKKT6mbuL" />
+    <title>该H5不存在_iebook_免费H5页面制作工具</title>
+    <meta name="keywords" content="移动场景应用自营销管家,移动场景自营销管家,移动场景自营销工具,活动自营销管家,场景展示,免费的报名页,收集潜在客户,二次营销,轻CRM,提高移动场景营销效果" />
+    <meta id="metaDescription" name="description" content="该H5不存在" />
+    <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-store, must-revalidate">
+    <META HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 1997 08:21:57 GMT">
+    <META HTTP-EQUIV="expires" CONTENT="0">
+    <meta id="viewport" name="viewport" content="width=320, initial-scale=1, maximum-scale=1, user-scalable=no" servergenerated="true">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  	<link rel="stylesheet" href="http://cdn.iebook.cn/h5/styles/main.css?v=4"/>
+    <script src="http://cdn.iebook.cn/h5/scripts/jquery.js?v=1"></script>
+    <script src="http://cdn.iebook.cn/h5/scripts/threecanvas.js?v=1"></script>
+    <script src="http://cdn.iebook.cn/h5/scripts/flux.js?v=1"></script>
+	</head>
+<body style="-webkit-user-select:none">
+<div id="ppitest" style="width:1in;visible:hidden;padding:0px"></div>
+<div class="p-index main phoneBox" id="con">
+    <div class="top"></div>
+    <div class="phone_menubar"></div>
+    <div class="scene_title_baner" style="display: none">
+        <div class="scene_title">该H5不存在</div>
+    </div>
+    <div class="nr" id="nr">
+        <div id="audio_btn" class="off">
+            <audio loop src="" id="media" autoplay="" preload></audio>
+        </div>
+        <div id="loading" class="loading">
+            <div class="loadbox">
+                <div class="loadlogo" style="background-image: url('/Uploads/http://img.iebook.cn/img_1_1467164971.png?imageMogr2/strip ');"></div>
+                <div class="loadbg" ></div>
+            </div>
+        </div>
+            </div>
+    <div class="bottom"></div>
+</div>
+		<script src="http://cdn.iebook.cn/h5/scripts/bundle.js?v=11"></script>
+		<script src="http://map.qq.com/api/js?v=2.exp"></script>
+</body>
+
+<script src="//cdn.bootcss.com/blueimp-md5/1.1.1/js/md5.min.js"></script>
+<script type="text/javascript" src="http://pingjs.qq.com/h5/stats.js" name="MTAH5" sid="500151647" ></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+ <script>
+ 	var workids = 22249190;
+	var tier = 1;
+ 	window.PREFIX_FILE_HOST = "http://img.iebook.cn/Uploads/";
+          wx.config({
+			  debug: false,
+			  appId: 'wx81d486e5ee07ecf1',
+			  timestamp: "1481095476",
+			  nonceStr: 'PTQODlLN3dCe7nFG',
+			  signature: '9e886340e6e69863cacb5cebf23802c6f24fe4ea',
+			  jsApiList: [
+				'onMenuShareTimeline',
+				'onMenuShareAppMessage',
+				'onMenuShareQQ',
+				'onMenuShareWeibo',
+				'onMenuShareQZone',
+
+			  ]
+		  });
+          wx.ready(function () {
+
+  		 
+  			 //分享到微信朋友圈
+			  wx.onMenuShareTimeline({
+				title: '该H5不存在',
+				desc: '该H5不存在',
+				link: 'http://h5.iebook.cn/v-U70418J75U63U787/${this.dataUrl}&tier=2',
+				imgUrl:'http://img.iebook.cn/img_1_1467164971.png?imageMogr2/strip',
+				success: function () { 
+				   setsetshare(1);
+				},	
+			 });
+			  //分享到微信朋友
+  			  wx.onMenuShareAppMessage({
+  				title: '该H5不存在',
+  				desc: '该H5不存在',
+  				link: 'http://h5.iebook.cn/v-I7062909427',
+  				imgUrl: 'http://img.iebook.cn/img_1_1467164971.png?imageMogr2/strip',
+  				success: function () {
+					alert("分享成功");
+  				   // 用户确认分享后执行的回调函数
+  				   setsetshare(2);
+  				},
+  			 });
+  			 //分享到QQ好友
+			  wx.onMenuShareQQ({
+				title: '该H5不存在',
+				desc: '该H5不存在',
+				link: 'http://h5.iebook.cn/v-U70418J75U63U787/${this.dataUrl}&tier=2',
+				imgUrl:'http://img.iebook.cn/img_1_1467164971.png?imageMogr2/strip',
+				data_url:'',
+				success: function () { 
+				   setsetshare(4);
+				},	
+			 });
+  			 //分享到微博
+  			  wx.onMenuShareWeibo({
+  				title: '该H5不存在',
+  				desc: '该H5不存在',
+  				link: 'http://h5.iebook.cn/v-I7062909427',
+  				imgUrl:'http://img.iebook.cn/img_1_1467164971.png?imageMogr2/strip',
+  				success: function () {
+  				     setsetshare(6);
+  				},
+  			 });
+  			 //分享到QQ空间
+  			  wx.onMenuShareQZone({
+  				title: '该H5不存在',
+  				desc: '该H5不存在',
+  				link: 'http://h5.iebook.cn/v-I7062909427',
+  				imgUrl:'http://img.iebook.cn/img_1_1467164971.png?imageMogr2/strip',
+  				success: function () {
+  				    setsetshare(5);
+  				},
+  			 });
+		
+  			//  wx.onMenuShareAppMessage(shareData64);
+  			 // wx.onMenuShareTimeline(shareData64);
+  			 wx.error(function (res) {
+				alert(res.errMsg);
+			});
+            });
+			
+			//$("#media").get(0).play();
+      		function setsetshare(type){
+      		  $.get('/h5/Statistics/setshare',{'h5id':workids,'type':type}, function(data){
+
+      		 })
+      		}
+        </script>
+
+</html>

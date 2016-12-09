@@ -1,0 +1,234 @@
+.clearfix:after {
+  content: '';
+  width: 100%;
+  clear: both;
+  display: block;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+  font-size: "微软雅黑";
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.wraper header {
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 1px 8px #bbb;
+}
+.wraper .search_top {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  padding-bottom: 3px;
+}
+.wraper .search_top input {
+  text-align: center;
+  width: 70%;
+  height: 8%;
+  margin-top: 4px;
+  border: 1px solid #aaa;
+  line-height: 20px;
+  border-radius: 20px;
+  text-indent: 5px;
+  color: #bbb;
+  background: #eee;
+  opacity: 0.55;
+}
+.wraper .search_top .iconfont {
+  position: absolute;
+  left: 95px;
+  top: 7px;
+  font-size: 1.3rem;
+  color: #bbb;
+}
+.wraper section .section_advertising {
+  font-size: 1rem;
+  color: #bbb;
+  display: block;
+  padding: 15px 6px;
+}
+.wraper section .section_content {
+  padding-top: 10px;
+  padding: 0 10px;
+}
+.wraper section .section_content .section_content_first {
+  padding-bottom: 15px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+.wraper section .section_content .section_content_first li {
+  display: none;
+}
+.wraper section .section_content .section_content_first .show {
+  display: inline-block;
+}
+.wraper section .section_content .section_content_first .third {
+  display: block;
+}
+.wraper section .section_content .section_content_second {
+  margin-bottom: 5px;
+  padding-top: 5px;
+  background-color: #fff;
+}
+.wraper section .section_content .section_content_second .iconfont {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.wraper section .section_content .section_content_second dl {
+  padding-bottom: 10px;
+}
+.wraper section .section_content .section_content_four {
+  margin-bottom: 5px;
+  padding-top: 15px;
+  background-color: #fff;
+}
+.wraper section .section_content .section_content_four li {
+  width: 100%;
+  height: 50%;
+  text-align: left;
+  display: none;
+}
+.wraper section .section_content .section_content_four li dl {
+  width: 100%;
+  height: 35%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.wraper section .section_content .section_content_four li dl dt {
+  float: left;
+  width: 30%;
+  height: 35%;
+  margin-right: 20px;
+}
+.wraper section .section_content .section_content_four li dl dt img {
+  width: 100px;
+  height: 100px;
+}
+.wraper section .section_content .section_content_four li dl dd {
+  float: left;
+  width: 61%;
+}
+.wraper section .section_content .section_content_four li dl dd h2 {
+  padding-top: 5px;
+  font-size: 18px;
+  color: #3b3b3b;
+}
+.wraper section .section_content .section_content_four li dl dd b {
+  float: left;
+  margin: 3px 0;
+  color: #4e4e4e;
+}
+.wraper section .section_content .section_content_four li dl dd span {
+  float: left;
+  height: 20%;
+  color: #747474;
+  font-size: 1rem;
+}
+.wraper section .section_content .section_content_four .visible {
+  display: block;
+}
+.wraper section .section_content .section_content_five li {
+  display: block;
+}
+.wraper section .section_content .section_content_six {
+  padding-bottom: 70px;
+  padding-top: 10px;
+  background-color: #fff;
+}
+.wraper section .section_content .section_content_six li {
+  display: none;
+}
+.wraper section .section_content .section_content_six .third {
+  display: block;
+}
+.wraper section .section_content h1 {
+  float: left;
+  margin-left: 5px;
+  color: #2f2f2d;
+}
+.wraper section .section_content i {
+  display: block;
+  float: right;
+  margin-right: 5px;
+  font-size: 1.2rem;
+  color: #bbb;
+}
+.wraper section .section_content a {
+  display: block;
+  float: right;
+  margin-right: 5px;
+  color: #bbb;
+}
+.wraper section .section_content ul {
+  width: 100%;
+  padding-top: 10px;
+  overflow: hidden;
+}
+.wraper section .section_content ul li {
+  float: left;
+  width: 100%;
+  height: 30%;
+  padding-left: 6px;
+  text-align: center;
+}
+.wraper section .section_content ul li dl {
+  float: left;
+  width: 30%;
+  height: 30%;
+  margin-right: 10px;
+}
+.wraper section .section_content ul li dl dt {
+  float: left;
+  width: 100%;
+  height: 30%;
+}
+.wraper section .section_content ul li dl dt img {
+  width: 100%;
+  height: 100%;
+}
+.wraper section .section_content ul li dl dd {
+  padding-top: 45px;
+}
+.wraper .bookshelf_footer {
+  width: 100%;
+  height: 9%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  background-color: #fff;
+  border-top: 1px solid #d0d0d0;
+  box-shadow: 0px 2px 5px #d0d0d0;
+}
+.wraper .bookshelf_footer .bookshelf_footer_color {
+  color: orangered;
+}
+.wraper .bookshelf_footer span {
+  float: left;
+  padding-top: 2%;
+  text-align: center;
+  flex: 1;
+}
+.wraper .bookshelf_footer span i {
+  margin-bottom: .625rem;
+  font-size: 30px;
+}
+.wraper .bookshelf_footer span p {
+  font-size: 1.25rem;
+}

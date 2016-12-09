@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Document</title>
+	<style>
+		#dom{
+			background-color: red;
+			width: 100px;
+			height: 100px;
+			margin: 0 auto;
+		}
+	</style>
+	<script src="lib/jquery-1.11.0.js"></script>
+	<script src="touch.js"></script>
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<div id="dom"></div>
+	<br>
+	<br>
+	<br>
+	<div id="div1"></div>
+	<div id="div2"></div>
+	<script>
+		
+		$(function() {
+             var target = document.getElementById("dom");
+             target.style.webkitTransition = 'all ease 0.05s';
+             touch.on('#dom', 'touchstart', function(ev) {
+                 ev.preventDefault();
+             });
+             var initialScale = 1;
+             var currentScale;
+             touch.on('#dom', 'pinchend', function(ev) {
+                 currentScale = ev.scale - 1;
+                 currentScale = initialScale + currentScale;
+                 currentScale = currentScale > 5 ? 5 : currentScale; //自己调节可以放大的最大倍数
+                 currentScale = currentScale < 0.1 ? 0.1 : currentScale; //自己调节可以缩小的最小倍数
+                 this.style.webkitTransform = 'scale(' + currentScale + ')';
+                 $('#div1').text("当前缩放比例为:" + currentScale + "倍.");
+                 initialScale = currentScale;
+                 var str = '';
+					str += 'originEvent: ' + ev.originEvent + ',<br>';
+					str += 'type: ' + ev.type + ',<br>';
+					str += 'rotation: ' + ev.rotation + ',<br>';
+					str += 'scale: ' + ev.scale + ',<br>';
+					str += 'direction: ' + ev.direction + ',<br>';
+					str += 'fingersCount: ' + ev.fingersCount + ',<br>';
+					str += 'position: ' + ev.position + ',<br>';
+					str += 'distance: ' + ev.distance + ',<br>';
+					str += 'distanceX: ' + ev.distanceX + ',<br>';
+					str += 'distanceY: ' + ev.distanceY + ',<br>';
+					str += 'angle: ' + ev.angle + ',<br>';
+					str += 'duration: ' + ev.duration + ',<br>';
+					str += 'factor: ' + ev.factor + ',<br>';
+					str += 'startRotate: ' + ev.startRotate + ',<br>';
+					$('#div2').html(str);
+             });
+         });
+         
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,329 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html, body {
+    position: relative;
+    height: 100%;
+    color: #FFFFFF;
+}
+img{
+	border: 0;
+}
+.swiper-container{
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide{
+	text-align: center;
+	font-size: 18px;
+	background: rgb(51, 46, 66);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/*align-items: center;*/
+}
+/*one*/
+.one-logo{
+	position: absolute;
+	top:30%;
+	left: 18%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.one-top-right{
+	position: absolute;
+	display: flex;
+	/*margin-top: -98%;*/
+	width: 50%;
+	height:38%;
+	top: -10%;
+	left:-5%;
+	/*justify-content:center;
+	align-items: center;*/
+}
+.one-top-left{
+	position: absolute;
+	display: flex;
+	top: -5%;
+	width: 30%;
+	height: 20%;
+	left:67%;
+	/*margin-top: -225%;*/
+}
+.one-bottom{
+	position: absolute;
+	display: flex;
+	width: 30%;
+	height: 20%;
+	top: 77%;
+	left: -15%;
+	/*margin-top: -198%;*/
+}
+/*two*/
+.two-size1,.two-size2,.two-size3,.two-size4,.two-size5,.two-size6,.two-size7,.two-size8{
+	position: absolute;
+	display: flex;
+}
+.two-size1{
+	top: 5%;
+	left: 37%;
+}
+.two-size2{
+	top: 12%;
+	left: 33%;
+}
+.two-size3{
+	top: 19%;
+	left: 29%;
+}
+.two-size4{
+	top: 26%;
+	left: 25%;
+}
+.two-size5{
+	top: 33%;
+	left: 35%;
+}
+.two-size6{
+	top: 40%;
+	left: 31%;
+}
+.two-size7{
+	top: 47%;
+	left: 27%;
+}
+.two-size8{
+	top: 54%;
+	left: 37%;
+}
+.two-bottom{
+	position: absolute;
+	display: flex;
+	top: 70%;
+	left: -16%;
+	width: 50%;
+	height: 30%;
+}
+/*three*/
+.three-top-one,.three2,.three3,.three4,.three5,.three6,.three7{
+	position: absolute;
+	display: flex;
+	line-height: .8rem;
+}
+.three-top-one{
+	top: 0%;
+	left: 15%;
+}
+.three2{
+	top: -1%;
+	left: 25%;
+}
+.three3{
+	top: 0%;
+	left: 35%;
+}
+.three4{
+	top: 0%;
+	left: 45%;
+}
+.three5{
+	top: 0%;
+	left: 55%;
+}
+.three6{
+	top: 0%;
+	left: 65%;
+}
+.three7{
+	top: 0%;
+	left: 75%;
+}
+.three-bottom{
+	position: absolute;
+	display: flex;
+	top: 78%;
+	width: 100%;
+	left: 0;
+	height: 23%;
+	justify-content:center;
+}
+.three-data{
+	position: absolute;
+	display: flex;
+	top: 25%;
+	left: 80%;
+	/*display: none;*/
+}
+.three-size1,.three-size2,.three-size3,.three-size4{
+	position: absolute;
+	display: flex;
+}
+.three-size1{
+	text-align: left;
+	width: 88%;
+	top: 35%;
+	left: 0;
+}
+.three-size2{
+	text-align: left;
+	width: 70%;
+	top: 42%;
+	left: 10%;
+}
+.three-size3{
+	text-align: right;
+	width: 88%;
+	top: 55%;
+	right: 0;
+}
+.three-size4{
+	text-align: right;
+	width: 70%;
+	top: 62%;
+	left: 40%;
+}
+
+/*four*/
+/*.four{
+	background-color: #FFFFFF;
+}*/
+.four-logo{
+	position: absolute;
+	display: flex;
+	top: 10%;
+	left: 29%;
+}
+.four-left-b{
+	position: absolute;
+	display: flex;
+	top: 57%;
+	left: -11%;
+}
+.four-left{
+	position: absolute;
+	display: flex;
+	top: 60%;
+	left: -8%;
+}
+.four-xing,.four-xing2,.four-xing3,.four-xing4,.four-xing5,.four-xing6{
+	position: absolute;
+	display: flex;
+}
+.four-xing{
+	top: 14.777%;
+	left: 10%;
+	animation: xing 1.5s infinite ease-in-out;
+}
+.four-xing2{
+	top: 8%;
+	left: 75%;
+	animation: xing 1.8s infinite ease-in-out;
+}
+.four-xing3{
+	top: 39.999%;
+	left: 15%;
+	animation: xing 2.2s infinite ease-in-out;
+}
+.four-xing4{
+	top: 42%;
+	left: 75%;
+	animation: xing 2s infinite ease-in-out;
+}
+.four-xing5{
+	top: 68%;
+	left: 9.6%;
+	animation: xing 1.5s infinite ease-in-out;
+}
+.four-xing6{
+	top: 76%;
+	left: 73%;
+	animation: xing 2.6s infinite ease-in-out;
+}
+@keyframes xing{
+	0%{opacity: 0;} 
+	100%{opacity: 1;}
+}
+.four-center{
+	position: absolute;
+	display: flex;
+	top: 47%;
+	left: 6%;
+}
+.four-m{
+	position: absolute;
+	display: flex;
+	top: 31%;
+	left: 20%;
+}
+.ewm{
+	position: absolute;
+	display: flex;
+	top: 70%;
+	left: 64%;
+}
+.ewm img{
+	width: 100px;
+	height: 100px;
+}
+.ewm-s{
+	position: absolute;
+	display: flex;
+	top: 90%;
+	left: 66%;
+}
+/*设计人员*/
+.name{
+	position: absolute;
+	display: flex;
+	top: 65%;
+	left: 5%;
+	color: indianred;
+}
+.name1{
+	position: absolute;
+	display: flex;
+	top: 70%;
+	left: 19%;
+}
+.name2{
+	position: absolute;
+	display: flex;
+	top: 75%;
+	left: 19%;
+}
+.name3{
+	position: absolute;
+	display: flex;
+	top: 80%;
+	left: 19%;
+}
+.name4{
+	position: absolute;
+	display: flex;
+	top: 85%;
+	left: 19%;
+}
+/*箭头*/
+.up img{
+	position: absolute;
+	top: 95%;
+	left: 45%;
+	/*width: 100%;
+	height:100%;*/
+	animation: Z 1s infinite linear .3s;
+}
+		    
+@keyframes Z{
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(-100%);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
